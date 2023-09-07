@@ -292,3 +292,91 @@ body {
   text-align: center;
   padding-bottom: 10px;
 }
+
+/* responsive */
+@media screen and (max-width: 480px) {
+  .header-logo {
+    width: 80px;
+  }
+
+  .header-nav-list {
+    margin-right: 10px;
+  }
+
+  .header-nav-item {
+    margin-right: 5px;
+  }
+
+  .header-nav-link {
+    font-size: 12px;
+  }
+
+  .kv {
+    height: max-content;
+    background-repeat: repeat;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .kv-txt {
+    margin-top: 28%;
+  }
+
+  .kv-ttl {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .kv-txt p {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    transform: none;
+  }
+
+  .kv-img {
+    width: 60%;
+    height: 60%;
+    margin: 10% auto;
+  }
+
+  .works-list {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .works-item + .works-item {
+    margin-top: 35px;
+  }
+
+  .about-list {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-item + .about-item {
+    margin-top: 35px;
+  }
+
+  .contact-icon-item {
+    width: 60px;
+    height: 60px;
+  }
+
+  .contact-icon-item + .contact-icon-item {
+    margin-left: 50px;
+  }
+
+  .footer-logo {
+    width: 80px;
+  }
+
+  .footer-nav-list {
+    margin-right: 0px;
+  }
+
+  .footer-nav-item {
+    width: 30px;
+    margin-right: 20px;
+  }
+}
